@@ -88,6 +88,9 @@
 <h4 id="转义符"><a href="#转义符" class="headerlink" title="转义符"></a>转义符</h4><figure class="highlight livescript"><table><tr><td class="code"><pre><span class="line">在markdown的语法里面，使用了一些特定的符号作为语法:</span><br><span class="line"><span class="string">\</span> `  * _ &#123;&#125; [] () <span class="comment"># + - . !</span></span><br><span class="line">如果我们想输出符号，而不是被识别成语法，就需要使用转义字符 <span class="string">\</span></span><br></pre></td></tr></table></figure>
 <p><img src="1.png" alt="示例"></p>
 ]]></content>
+      <categories>
+        <category>基础学习</category>
+      </categories>
       <tags>
         <tag>markdown语法</tag>
       </tags>
