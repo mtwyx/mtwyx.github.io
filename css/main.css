@@ -1845,13 +1845,12 @@ pre code {
   top: 0;
   width: 100%;
 }
-a:not(.btn) {
-  color: #f89fa0;
+.post-body a:not(.btn) {
+  color: #3296fa;
   border-bottom: none;
 }
-a:not(.btn):hover {
-  color: #ff7a7a;
-  font-weight: bold;
+.post-body a:not(.btn):hover {
+  color: #0593d3;
   text-decoration: underline;
 }
 .post-gallery {
