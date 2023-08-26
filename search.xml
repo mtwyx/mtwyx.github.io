@@ -18,6 +18,22 @@
       </tags>
   </entry>
   <entry>
+    <title>C++ 跟奥巴马一起编程</title>
+    <url>/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[<p><strong>打印正方形 实现四舍五入</strong></p>
+<span id="more"></span>
+<h4 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h4><p><img src="1.png" alt="题目"></p>
+<h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> N;</span><br><span class="line">	<span class="type">char</span> c;</span><br><span class="line">	cin&gt;&gt;N;</span><br><span class="line">	cin&gt;&gt;c;</span><br><span class="line">	<span class="type">double</span> a=(<span class="type">double</span>)N/<span class="number">2</span>;</span><br><span class="line">	<span class="type">int</span> b=<span class="built_in">round</span>(a);</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;b;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;N;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(i==<span class="number">0</span>||i==(b<span class="number">-1</span>))</span><br><span class="line">			&#123;</span><br><span class="line">				cout&lt;&lt;c;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">if</span>(j==<span class="number">0</span>||j==(N<span class="number">-1</span>))</span><br><span class="line">				&#123;</span><br><span class="line">					cout&lt;&lt;c;</span><br><span class="line">				&#125;</span><br><span class="line">				<span class="keyword">else</span></span><br><span class="line">				cout&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		cout&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>参考</strong><br><a href="https://blog.csdn.net/Xavier_97/article/details/126931927">C++四舍五入算法</a></p>
+]]></content>
+      <categories>
+        <category>C++练习</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown 语法</title>
     <url>/2023/08/25/Markdown-%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<p><strong>初学markdown语法</strong></p>
@@ -111,22 +127,6 @@
       <tags>
         <tag>markdown语法</tag>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++ 跟奥巴马一起编程</title>
-    <url>/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/</url>
-    <content><![CDATA[<p><strong>打印正方形 实现四舍五入</strong></p>
-<span id="more"></span>
-<h4 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h4><p><img src="1.png" alt="题目"></p>
-<h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> N;</span><br><span class="line">	<span class="type">char</span> c;</span><br><span class="line">	cin&gt;&gt;N;</span><br><span class="line">	cin&gt;&gt;c;</span><br><span class="line">	<span class="type">double</span> a=(<span class="type">double</span>)N/<span class="number">2</span>;</span><br><span class="line">	<span class="type">int</span> b=<span class="built_in">round</span>(a);</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;b;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;N;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(i==<span class="number">0</span>||i==(b<span class="number">-1</span>))</span><br><span class="line">			&#123;</span><br><span class="line">				cout&lt;&lt;c;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">if</span>(j==<span class="number">0</span>||j==(N<span class="number">-1</span>))</span><br><span class="line">				&#123;</span><br><span class="line">					cout&lt;&lt;c;</span><br><span class="line">				&#125;</span><br><span class="line">				<span class="keyword">else</span></span><br><span class="line">				cout&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		cout&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><strong>参考</strong><br><a href="https://blog.csdn.net/Xavier_97/article/details/126931927">C++四舍五入算法</a></p>
-]]></content>
-      <categories>
-        <category>C++练习</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
       </tags>
   </entry>
 </search>
