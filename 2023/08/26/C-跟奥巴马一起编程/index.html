@@ -22,26 +22,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"mtwyx.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.18.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="mt">
-<meta property="og:type" content="website">
-<meta property="og:title" content="wyx&#39;s blog">
-<meta property="og:url" content="http://mtwyx.github.io/categories/C-%E7%BB%83%E4%B9%A0/index.html">
+    <meta name="description" content="打印正方形 实现四舍五入">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C++跟奥巴马一起编程">
+<meta property="og:url" content="http://mtwyx.github.io/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/index.html">
 <meta property="og:site_name" content="wyx&#39;s blog">
-<meta property="og:description" content="mt">
+<meta property="og:description" content="打印正方形 实现四舍五入">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://mtwyx.github.io/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/1.png">
+<meta property="article:published_time" content="2023-08-26T08:24:36.000Z">
+<meta property="article:modified_time" content="2023-08-26T08:54:07.273Z">
 <meta property="article:author" content="wyx">
-<meta property="article:tag" content="C++,C,Code">
+<meta property="article:tag" content="C++">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://mtwyx.github.io/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/1.png">
 
 
-<link rel="canonical" href="http://mtwyx.github.io/categories/C-%E7%BB%83%E4%B9%A0/">
+<link rel="canonical" href="http://mtwyx.github.io/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"categories/C-练习/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://mtwyx.github.io/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/","path":"2023/08/26/C-跟奥巴马一起编程/","title":"C++跟奥巴马一起编程"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>分类: C++练习 | wyx's blog</title>
+<title>C++跟奥巴马一起编程 | wyx's blog</title>
   
 
 
@@ -128,7 +132,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -141,6 +145,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%89%93%E5%8D%B0%E6%AD%A3%E6%96%B9%E5%BD%A2-%E5%AE%9E%E7%8E%B0%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5"><span class="nav-text">打印正方形 实现四舍五入</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE"><span class="nav-text">题目</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81"><span class="nav-text">代码</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -220,70 +225,191 @@
 
     </div>
 
-    <div class="main-inner category posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">C++练习
-          <small>分类</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://mtwyx.github.io/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="wyx">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="wyx's blog">
+      <meta itemprop="description" content="mt">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="C++跟奥巴马一起编程 | wyx's blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          C++跟奥巴马一起编程
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
+
+      <time title="创建时间：2023-08-26 16:24:36 / 修改时间：16:54:07" itemprop="dateCreated datePublished" datetime="2023-08-26T16:24:36+08:00">2023-08-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/C-%E7%BB%83%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">C++练习</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+
+    <div class="post-body" itemprop="articleBody"><h5 id="打印正方形-实现四舍五入"><a href="#打印正方形-实现四舍五入" class="headerlink" title="打印正方形 实现四舍五入"></a>打印正方形 实现四舍五入</h5><span id="more"></span>
+<h5 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h5><p><img src="1.png" alt="题目"></p>
+<h5 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h5><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> N;</span><br><span class="line">	<span class="type">char</span> c;</span><br><span class="line">	cin&gt;&gt;N;</span><br><span class="line">	cin&gt;&gt;c;</span><br><span class="line">	<span class="type">double</span> a=(<span class="type">double</span>)N/<span class="number">2</span>;</span><br><span class="line">	<span class="type">int</span> b=<span class="built_in">round</span>(a);</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;b;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;N;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(i==<span class="number">0</span>||i==(b<span class="number">-1</span>))</span><br><span class="line">			&#123;</span><br><span class="line">				cout&lt;&lt;c;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">			&#123;</span><br><span class="line">				<span class="keyword">if</span>(j==<span class="number">0</span>||j==(N<span class="number">-1</span>))</span><br><span class="line">				&#123;</span><br><span class="line">					cout&lt;&lt;c;</span><br><span class="line">				&#125;</span><br><span class="line">				<span class="keyword">else</span></span><br><span class="line">				cout&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		cout&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>参考</strong><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/Xavier_97/article/details/126931927">C++四舍五入算法</a></p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2023-08-26T16:24:36+08:00"
-              content="2023-08-26">
-          08-26
-        </time>
-      </div>
+    
+    
+    
+    <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------已经到底啦！<i class="fa fa-paw"></i>-------------</div>
+    
+</div>
 
-      <div class="post-title">
-        <a class="post-title-link" href="/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/" itemprop="url">
-          <span itemprop="name">C++跟奥巴马一起编程</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2023-08-25T18:46:20+08:00"
-              content="2023-08-25">
-          08-25
-        </time>
-      </div>
-
-      <div class="post-title">
-        <a class="post-title-link" href="/2023/08/25/C-%E6%9C%89%E7%90%86%E6%95%B0%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97/" itemprop="url">
-          <span itemprop="name">C++ 有理数四则运算</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
+    
     </div>
-  </div>
-  
-  
-  
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/C/" rel="tag"><i class="fa fa-tag"></i>C++</a>
+          </div>
+          <script type="text/javascript">
+  var tagsall=document.getElementsByClassName("post-tags")
+  for (var i = tagsall.length - 1; i >= 0; i--){
+      var tags=tagsall[i].getElementsByTagName("a");
+      for (var j = tags.length - 1; j >= 0; j--) {
+          var golden_ratio = 0.618033988749895;
+          var s = 0.5;
+          var v = 0.999;
+          var h = golden_ratio + Math.random()*0.8 - 0.5;
+          var h_i = parseInt(h * 6);
+          var f = h * 6 - h_i;
+          var p = v * (1 - s);
+          var q = v * (1 - f * s);
+          var t = v * (1 - (1 - f) * s);
+          var r, g, b;
+          switch (h_i) {
+              case 0:
+                  r = v;
+                  g = t;
+                  b = p;
+                  break;
+              case 1:
+                  r = q;
+                  g = v;
+                  b = p;
+                  break;
+              case 2:
+                  r = p;
+                  g = v;
+                  b = t;
+                  break;
+              case 3 :
+                  r = p;
+                  g = q;
+                  b = v;
+                  break;
+              case 4:
+                  r = t;
+                  g = p;
+                  b = v;
+                  break;
+              case 5:
+                  r = v;
+                  g = p;
+                  b = q;
+                  break;
+              default:
+                  r = 1;
+                  g = 1;
+                  b = 1;
+            }
+          tags[j].style.background = "rgba("+parseInt(r*255)+","+parseInt(g*255)+","+parseInt(b*255)+","+0.7+")";
+      }
+  }
+</script>
+<style>
+.post-tags a {
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 0px 10px;
+    border-radius: 8px;
+    color: rgb(85, 85, 85);
+    border: 0px;
+}
+.post-tags a:hover{
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,.4);
+    transform: scale(1.1);
+    transition-duration: 0.15s;
+}
+</style>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/08/25/C-%E6%9C%89%E7%90%86%E6%95%B0%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97/" rel="prev" title="C++ 有理数四则运算">
+                  <i class="fa fa-angle-left"></i> C++ 有理数四则运算
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
 
 </div>
   </main>
