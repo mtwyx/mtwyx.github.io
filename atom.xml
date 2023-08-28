@@ -6,7 +6,7 @@
   <link href="http://mtwyx.github.io/atom.xml" rel="self"/>
   
   <link href="http://mtwyx.github.io/"/>
-  <updated>2023-08-26T15:18:06.328Z</updated>
+  <updated>2023-08-28T08:40:06.853Z</updated>
   <id>http://mtwyx.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>C++有几个PAT</title>
+    <link href="http://mtwyx.github.io/2023/08/28/C-%E6%9C%89%E5%87%A0%E4%B8%AAPAT/"/>
+    <id>http://mtwyx.github.io/2023/08/28/C-%E6%9C%89%E5%87%A0%E4%B8%AAPAT/</id>
+    <published>2023-08-28T08:25:24.000Z</published>
+    <updated>2023-08-28T08:40:06.853Z</updated>
+    
+    
+    <summary type="html">&lt;h5 id=&quot;题目要求&quot;&gt;&lt;a href=&quot;#题目要求&quot; class=&quot;headerlink&quot; title=&quot;题目要求&quot;&gt;&lt;/a&gt;题目要求&lt;/h5&gt;&lt;p&gt;&lt;img src=&quot;1.png&quot; alt=&quot;题目要求&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C++练习" scheme="http://mtwyx.github.io/categories/C-%E7%BB%83%E4%B9%A0/"/>
+    
+    
+    <category term="C++" scheme="http://mtwyx.github.io/tags/C/"/>
+    
+    <category term="PAT" scheme="http://mtwyx.github.io/tags/PAT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>C++ 跟奥巴马一起编程</title>
     <link href="http://mtwyx.github.io/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/"/>
     <id>http://mtwyx.github.io/2023/08/26/C-%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/</id>
     <published>2023-08-26T08:24:36.000Z</published>
-    <updated>2023-08-26T15:18:06.328Z</updated>
+    <updated>2023-08-28T08:27:34.978Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;打印正方形 实现四舍五入&lt;/strong&gt;&lt;/p&gt;</summary>
@@ -33,6 +54,8 @@
     
     <category term="C++" scheme="http://mtwyx.github.io/tags/C/"/>
     
+    <category term="PAT" scheme="http://mtwyx.github.io/tags/PAT/"/>
+    
   </entry>
   
   <entry>
@@ -40,7 +63,7 @@
     <link href="http://mtwyx.github.io/2023/08/25/C-%E6%9C%89%E7%90%86%E6%95%B0%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97/"/>
     <id>http://mtwyx.github.io/2023/08/25/C-%E6%9C%89%E7%90%86%E6%95%B0%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97/</id>
     <published>2023-08-25T10:46:20.000Z</published>
-    <updated>2023-08-25T11:23:59.749Z</updated>
+    <updated>2023-08-28T08:27:36.669Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;有理数四则运算&lt;/strong&gt;&lt;/p&gt;</summary>
@@ -51,6 +74,8 @@
     
     
     <category term="C++" scheme="http://mtwyx.github.io/tags/C/"/>
+    
+    <category term="PAT" scheme="http://mtwyx.github.io/tags/PAT/"/>
     
   </entry>
   
