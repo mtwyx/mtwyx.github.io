@@ -6,7 +6,7 @@
   <link href="http://mtwyx.github.io/atom.xml" rel="self"/>
   
   <link href="http://mtwyx.github.io/"/>
-  <updated>2023-09-01T09:03:09.906Z</updated>
+  <updated>2023-09-01T12:29:17.013Z</updated>
   <id>http://mtwyx.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C++ 打印PAT</title>
+    <link href="http://mtwyx.github.io/2023/09/01/C-%E6%89%93%E5%8D%B0PAT/"/>
+    <id>http://mtwyx.github.io/2023/09/01/C-%E6%89%93%E5%8D%B0PAT/</id>
+    <published>2023-09-01T12:23:49.000Z</published>
+    <updated>2023-09-01T12:29:17.013Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;打印PATtest&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C++练习" scheme="http://mtwyx.github.io/categories/C-%E7%BB%83%E4%B9%A0/"/>
+    
+    
+    <category term="C++" scheme="http://mtwyx.github.io/tags/C/"/>
+    
+    <category term="PAT" scheme="http://mtwyx.github.io/tags/PAT/"/>
+    
+  </entry>
   
   <entry>
     <title>C++ 字符统计</title>
