@@ -1423,7 +1423,6 @@ pre code {
   line-height: 1.8;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .post-toc .nav .nav-child {
   --height: 0;
@@ -2677,6 +2676,7 @@ header.header {
 .pagination {
   border-top: initial;
   padding: 10px 0;
+  background: rgba(255,255,255,0.7);
 }
 .post-body h1,
 .post-body h2 {
