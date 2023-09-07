@@ -104,21 +104,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Java Day1</title>
-    <url>/2023/09/03/Java-Day1/</url>
-    <content><![CDATA[<p><strong>Java入门学习 Day1</strong><br>数据类型   字符、字符串’+’</p>
-<span id="more"></span>
-<h5 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h5><p><img src="1.png" alt="数据类型"><br><img src="2.png" alt="数据类型"></p>
-<h5 id="字符串，字符’-’"><a href="#字符串，字符’-’" class="headerlink" title="字符串，字符’+’"></a>字符串，字符’+’</h5><h5 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h5><figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line"><span class="built_in">public</span> <span class="keyword">class</span> Helloworld </span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">public</span> static <span class="type">void</span> main(String[] args)</span><br><span class="line">    &#123;</span><br><span class="line">        byte b=<span class="number">10</span>;</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(b);</span><br><span class="line">        short s = <span class="number">100</span>;</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(s);</span><br><span class="line">        <span class="type">int</span> i=<span class="number">10000</span>;</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(i);</span><br><span class="line">        <span class="type">double</span> d=<span class="number">13.14</span>;</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(d);</span><br><span class="line">        <span class="type">char</span> c=<span class="string">&#x27;a&#x27;</span>;</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(c);</span><br><span class="line">        <span class="type">boolean</span> bb=<span class="keyword">true</span>;</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(bb);</span><br><span class="line">        long l=<span class="number">100000000000</span>L;</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(l);</span><br><span class="line">        <span class="type">float</span> f=<span class="number">13.14</span>F;</span><br><span class="line">        //不兼容的类型: 从<span class="type">double</span>转换到<span class="type">float</span>可能会有损失</span><br><span class="line">        //<span class="type">float</span> f=<span class="number">13.14</span>;</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(f);</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(&quot;wyx&quot;+<span class="number">20040816</span>);</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(&quot;wyx&quot;+&quot;SCU&quot;);</span><br><span class="line">        <span class="keyword">System</span>.<span class="keyword">out</span>.println(<span class="number">10</span> + <span class="string">&#x27;a&#x27;</span>);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Java学习</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown 语法</title>
     <url>/2023/08/25/Markdown-%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<p><strong>初学markdown语法</strong></p>

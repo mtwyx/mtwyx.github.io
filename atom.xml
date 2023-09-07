@@ -6,7 +6,7 @@
   <link href="http://mtwyx.github.io/atom.xml" rel="self"/>
   
   <link href="http://mtwyx.github.io/"/>
-  <updated>2023-09-03T07:17:36.489Z</updated>
+  <updated>2023-09-02T03:08:26.416Z</updated>
   <id>http://mtwyx.github.io/</id>
   
   <author>
@@ -15,25 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Java Day1</title>
-    <link href="http://mtwyx.github.io/2023/09/03/Java-Day1/"/>
-    <id>http://mtwyx.github.io/2023/09/03/Java-Day1/</id>
-    <published>2023-09-03T07:09:30.000Z</published>
-    <updated>2023-09-03T07:17:36.489Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;strong&gt;Java入门学习 Day1&lt;/strong&gt;&lt;br&gt;数据类型   字符、字符串’+’&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Java学习" scheme="http://mtwyx.github.io/categories/Java%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="Java" scheme="http://mtwyx.github.io/tags/Java/"/>
-    
-  </entry>
   
   <entry>
     <title>C++ 火星数字</title>
